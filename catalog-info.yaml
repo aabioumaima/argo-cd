@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-project
+  description: A sample project for Backstage testing
+spec:
+  type: service
+  lifecycle: production
+  owner: guest
