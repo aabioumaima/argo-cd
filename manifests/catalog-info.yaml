@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-project
+  description: A sample project for Backstage testing
+  annotations:
+    github.com/project-slug: aabioumaima/argo-cd
+spec:
+  type: service
+  lifecycle: production
+  owner: guests
