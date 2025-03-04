@@ -1,4 +1,13 @@
 apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: guest
+  description: Guest users in Backstage
+spec:
+  type: team
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: test-project
